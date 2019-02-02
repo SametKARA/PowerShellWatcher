@@ -83,13 +83,13 @@ function Write-Log
     Process
     {  
         # Dosyanın adında % sembolü var mı kontrol edilir.
-        if ($FileName -contains "%")
+        if ($FileName.Contains('%'))
         {
             $ParsedFileName = $FileName -split "%"
             $FileName = $ParsedFileName[0] + (Get-Date -Format $ParsedFileName[1]) + $ParsedFileName[2]
         }
 
-        if(-NOT $Path.EndsWith("\"))
+        if(-NOT $Path.EndsWith('\'))
         {
             $Path += "\"
         }
