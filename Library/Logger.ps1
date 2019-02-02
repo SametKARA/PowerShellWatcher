@@ -15,8 +15,8 @@
     * Added documentation.
     * Renamed LogPath parameter to Path to keep it standard - thanks to @JeffHicks
     * Revised the Force switch to work as it should - thanks to @JeffHicks
-    * FileName and Path variables are seperated
-    * Datetime format added to FileName
+    * FileName and Path variables are seperated - @SametKARA
+    * Datetime format added to FileName - @SametKARA
 	* TimeZone information added to FormattedDate - @SametKARA
 
    To Do:
